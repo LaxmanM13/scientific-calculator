@@ -11,8 +11,11 @@
     height: 320px;
     background-color: #c0c0c0;
     box-shadow: 0px 0px 0px 10px #666;
-    border: 5px solid black;
-    border-radius: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left:40%;
+    margin-top:5%
+
   }
   #display {
     width: 320px;
@@ -42,7 +45,7 @@
     height: 25px;
   }
   .btnMath {
-    color: white;
+    color: black;
     background-color: lightblue;
     font-size: 14px;
     margin: auto;
