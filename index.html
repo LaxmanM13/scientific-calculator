@@ -14,6 +14,8 @@
         <tr>
             <td colspan="5"><input id="display" name="display" value="0" size="28" maxlength="25"></td>
         </tr>
+
+
         <tr>
             <td>
                 <input type="button" class="btnTop" name="btnTop" value="C" onclick="this.form.display.value=  0 ">
@@ -31,6 +33,8 @@
                 <input type="button" class="btnMath" name="btnMath" value="%" onclick=" percent(this.form.display)">
             </td>
         </tr>
+
+
         <tr>
             <td>
                 <input type="button" class="btnNum" name="btnNum" value="7" onclick="addChar(this.form.display, '7')">
@@ -49,6 +53,8 @@
             <td>
                 <input type="button" class="btnMath" name="btnMath" value="/" onclick="addChar(this.form.display, '/')">
             </td>
+
+
         <tr>
             <td><input type="button" class="btnNum" name="btnNum" value="5" onclick="addChar(this.form.display, '5')">
             </td>
@@ -67,6 +73,8 @@
                 <input type="button" class="btnMath" name="btnMath" value="*" onclick="addChar(this.form.display, '*')">
             </td>
         </tr>
+
+
         <tr>
             <td>
                 <input type="button" class="btnNum" name="btnNum" value="1" onclick="addChar(this.form.display, '1')">
@@ -83,20 +91,44 @@
             <td><input type="button" class="btnMath" name="btnMath" value="-" onclick="addChar(this.form.display, '-')">
             </td>
         </tr>
-        <tr>
-            <td><input type="button" class="btnMath" name="btnMath" value="&#177" onclick="changeSign(this.form.display)"></td>
-            <td><input type="button" class="btnNum" name="btnNum" value="0" onclick="addChar(this.form.display, '0')"></td>
-            <td><input type="button" class="btnMath" name="btnMath" value="&#46;" onclick="addChar(this.form.display, '&#46;')"></td>
 
-            <td><input type="button" class="btnOpps" name="btnOpps" value="x&#50;" onclick="if(checkNum(this.form.display.value)) { square(this.form) }"></td>
-            <td><input type="button" class="btnMath" name="btnMath" value="+" onclick="addChar(this.form.display, '+')"></td>
-        </tr>
+
         <tr>
-            <td><input type="button" class="btnMath" name="btnMath" value="(" onclick="addChar(this.form.display, '(')"></td>
-            <td><input type="button" class="btnMath" name="btnMath" value=")" onclick="addChar(this.form.display,')')"></td>
-            <td><input type="button" class="btnMath" name="btnMath" value="cos" onclick="if(checkNum(this.form.display.value)) { cos(this.form) }"></td>
-            <td><input type="button" class="btnMath" name="btnMath" value="sin" onclick="if(checkNum(this.form.display.value)) { sin(this.form) }"></td>
-            <td><input type="button" class="btnMath" name="btnMath" value="tan" onclick="if(checkNum(this.form.display.value)) { tan(this.form) }"></td>
+            <td>
+                <input type="button" class="btnMath" name="btnMath" value="&#177" onclick="changeSign(this.form.display)">
+            </td>
+            <td>
+                <input type="button" class="btnNum" name="btnNum" value="0" onclick="addChar(this.form.display, '0')">
+            </td>
+            <td>
+                <input type="button" class="btnMath" name="btnMath" value="&#46;" onclick="addChar(this.form.display, '&#46;')">
+            </td>
+
+            <td>
+                <input type="button" class="btnOpps" name="btnOpps" value="x&#50;" onclick="if(checkNum(this.form.display.value)) { square(this.form) }">
+            </td>
+            <td><
+                input type="button" class="btnMath" name="btnMath" value="+" onclick="addChar(this.form.display, '+')">
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                <input type="button" class="btnMath" name="btnMath" value="(" onclick="addChar(this.form.display, '(')">
+            </td>
+            <td>
+                <input type="button" class="btnMath" name="btnMath" value=")" onclick="addChar(this.form.display,')')">
+            </td>
+            <td>
+                <input type="button" class="btnMath" name="btnMath" value="cos" onclick="if(checkNum(this.form.display.value)) { cos(this.form) }">
+            </td>
+            <td>
+                <input type="button" class="btnMath" name="btnMath" value="sin" onclick="if(checkNum(this.form.display.value)) { sin(this.form) }">
+            </td>
+            <td>
+                <input type="button" class="btnMath" name="btnMath" value="tan" onclick="if(checkNum(this.form.display.value)) { tan(this.form) }">
+            </td>
         </tr>
         </tabel>
 
